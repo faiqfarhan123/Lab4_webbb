@@ -1,0 +1,34 @@
+body {
+	margin-top: 20px;
+	background-color: #bbb;
+
+}
+
+#create_form{
+	padding: 20px 20px 20px 20px;
+	font-size: 30px;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+#input-name, #password-name, #select-name{
+	margin-top: 50px;
+	padding: 20px 20px 20px 20px;
+	color: white;
+	background-color: black;
+	margin: 20px 20px 20px 20px;
+	font-size: 17px;
+	border-radius: 10px;
+
+}
+h1{
+	text-align: center;
+	color: white;
+}
+label {
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+
+}

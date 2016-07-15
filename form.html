@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+<button id = "create_form" onclick="create_a_form()">Create a Form</button>
+
+<h1 id="demo"></h1>
+
+<div class = "form">
+
+<div id="name-label">
+  <label id="control-label-name" for="textinput">Full Name</label>
+    <input id="nameinput" name="textinput-0" type="text" placeholder="placeholder" class="input-xlarge">
+</div>
+
+<div id="password-label">
+  <label id="control-label-password" for="passwordinput">Password Input</label>
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="placeholder" class="input-xlarge">
+</div>
+
+<div id="select">
+  <label class="select-label" for="selectbasic">Select Basic</label>
+    <select id="selectbasic" name="selectbasic" class="input-xlarge">
+      <option>Option one</option>
+      <option>Option two</option>
+    </select>
+</div>
+
+</div>
+<button id= "input-name" onclick= "name_input()">Add text field	</button>
+<button id= "password-name" onclick= "password_input()">Add password field	</button>
+<button id= "select-name" onclick= "select_input()">Add Select	</button>
+</body>
+
+
+</html>
